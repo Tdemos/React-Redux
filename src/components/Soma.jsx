@@ -4,14 +4,12 @@ import Card from './Card';
 
 const Soma = props => {
 
-    const { min, max } = props;
-
     return (
         <Card title="Soma dos Numeros" blue>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>{max + min}</strong>
+                    <strong>{1}0</strong>
                 </span>
             </div>
         </Card>
